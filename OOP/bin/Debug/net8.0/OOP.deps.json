@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OOP/1.0.0": {
+        "dependencies": {
+          "ClassLibraryGame": "1.0.0"
+        },
+        "runtime": {
+          "OOP.dll": {}
+        }
+      },
+      "ClassLibraryGame/1.0.0": {
+        "runtime": {
+          "ClassLibraryGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OOP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryGame/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

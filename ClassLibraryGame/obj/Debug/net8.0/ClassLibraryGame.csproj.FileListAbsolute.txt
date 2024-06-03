@@ -1,0 +1,11 @@
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.deps.json
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.dll
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.pdb
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.AssemblyInfoInputs.cache
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.AssemblyInfo.cs
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.csproj.CoreCompileInputs.cache
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.dll
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\refint\ClassLibraryGame.dll
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.pdb
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ref\ClassLibraryGame.dll
