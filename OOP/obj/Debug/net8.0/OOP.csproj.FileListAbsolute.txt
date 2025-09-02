@@ -15,4 +15,5 @@ C:\Users\kagar\source\repos\OOP\OOP\obj\Debug\net8.0\ref\OOP.dll
 C:\Users\kagar\source\repos\OOP\OOP\bin\Debug\net8.0\ClassLibraryGame.dll
 C:\Users\kagar\source\repos\OOP\OOP\bin\Debug\net8.0\ClassLibraryGame.pdb
 C:\Users\kagar\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.csproj.AssemblyReference.cache
-C:\Users\kagar\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.csproj.CopyComplete
+C:\Users\kagar\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.sourcelink.json
+C:\Users\kagar\source\repos\OOP\OOP\obj\Debug\net8.0\OOP.csproj.Up2Date

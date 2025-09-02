@@ -9,3 +9,4 @@ C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGa
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\refint\ClassLibraryGame.dll
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.pdb
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ref\ClassLibraryGame.dll
+C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.sourcelink.json
