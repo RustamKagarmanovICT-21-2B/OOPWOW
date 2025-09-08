@@ -10,3 +10,15 @@ C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\refint\ClassLi
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.pdb
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ref\ClassLibraryGame.dll
 C:\Users\kagar\source\repos\OOP\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.sourcelink.json
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.deps.json
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.dll
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\bin\Debug\net8.0\ClassLibraryGame.pdb
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.AssemblyInfoInputs.cache
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.AssemblyInfo.cs
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.csproj.CoreCompileInputs.cache
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.sourcelink.json
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.dll
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\refint\ClassLibraryGame.dll
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ClassLibraryGame.pdb
+C:\Users\kagar\Source\Repos\OOPWOW\ClassLibraryGame\obj\Debug\net8.0\ref\ClassLibraryGame.dll
