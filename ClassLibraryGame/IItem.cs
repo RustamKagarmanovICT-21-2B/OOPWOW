@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryGame
 {
-    public interface IForgingStrategy
+    internal interface IItem
     {
-        bool TryForge(Item item, int blacksmithSkill);
-        string GetResultMessage(Item item, bool success);
+        string Name { get; }
+        int Quality { get; set; }
+        int MaxQuality { get; }
+        void ApplyImprovement();
     }
 }

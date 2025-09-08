@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,15 @@ namespace ClassLibraryGame
         public string Name { get; set; }
         public int ItemId { get; set; }
         public int Quality { get; set; }
+        public string Description { get; set; }
 
+        public Item(string name, int quality, int itemId, string description)
+        {
+            Name = name;
+            Quality = quality;
+            ItemId = itemId;
+            Description = description;
+        }
         public Item(string name, int quality, int itemId)
         {
             Name = name;

@@ -23,5 +23,11 @@ namespace ClassLibraryGame
 
             return isSuccessful;
         }
+        public string GetResultMessage(Item item, bool success)
+        {
+            return success ?
+                $"Успешно улучшено до качества {item.Quality}!" :
+                $"Не удалось улучшить {item.Name}. Требуется более опытный кузнец.";
+        }
     }
 }
