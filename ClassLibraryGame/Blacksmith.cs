@@ -9,21 +9,17 @@ namespace ClassLibraryGame
     public class Blacksmith : NonPlayerCharacter
     {
         Random rnd = new Random();
+        private IForgingStrategy forgingStrategy;
         public int ForgeQuality { get; private set; }
-        public Money BlacksmithMoney { get; set; }
 
-        public Blacksmith(string name, int age, int forgeQuality, int startingBalance) : base(name, age)
+        public Blacksmith(string name, int age, int forgeQuality) : base(name, age)
         {
             ForgeQuality = forgeQuality;
-            BlacksmithMoney = new Money(startingBalance);
         }
         public Blacksmith(string name) : base(name)
         {
         }
-        public Blacksmith(string name, int age, int startingBalance) : base(name, age)
-        {
-            BlacksmithMoney = new Money(startingBalance);
-        }
+
         // Реализация метода Interact для кузнеца, который должен быть реализован
         //
         public override void Interact()
@@ -35,20 +31,6 @@ namespace ClassLibraryGame
 
         public Item Forge(Item item)
         {
-            // Проверяем, что item не равен null
-            if (item == null)
-            {
-                Console.WriteLine("Ошибка: передан null объект предмета.");
-                return null;
-            }
-
-            // Проверяем, что свойство Quality инициализировано
-            if (item.Quality == null)
-            {
-                Console.WriteLine("Ошибка: качество предмета не установлено.");
-                return item;
-            }
-
             // Улучшение качества предмета
             int successRate = EnsureNonNegative(ForgeQuality - item.Quality);
             int success = rnd.Next(successRate * 10, 100);
@@ -58,43 +40,22 @@ namespace ClassLibraryGame
                 item.Quality++;
                 Console.WriteLine($"{Name} улучшил {item.Name} до качества {item.Quality}.");
                 return item;
+
             }
             else
             {
-                Console.WriteLine($"{Name} НЕ улучшил {item.Name} до качества {item.Quality + 1}.");
+                Console.WriteLine($"{Name} НЕ улучшил {item.Name} до качества {item.Quality+1}.");
             }
 
+
             return item;
-        }
-
-
-
-
-
-
-
-
-        ///////////////////////Методы/////////////////////////////////
-
-        // торговля
-        public void TradeItem(int salePrice)
-        {
-            // Вызываем делегат для добавления денег от продажи предмета
-            BlacksmithMoney.PerformMoneyOperation(Money.AddMoney, salePrice);
-        }
-
-        //покупка материалов
-        public void BuyMaterials(int purchasePrice)
-        {
-            // Вызываем делегат для вычитания денег при покупке материалов
-            BlacksmithMoney.PerformMoneyOperation(Money.DelMoney, purchasePrice);
         }
         private static int EnsureNonNegative(int number)
         {
             return number < 0 ? 0 : number;
         }
 
-        static private string  ChooseQuality(int quality)
+        private string ChooseQuality(int quality)
         {
             switch (quality)
             {

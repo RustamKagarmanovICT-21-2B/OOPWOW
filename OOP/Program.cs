@@ -98,21 +98,37 @@ static void InteractWithBlacksmithAndItems()
         Console.WriteLine("Введите название предмета для улучшения или 'выход' для выхода из игры:");
         string input = Console.ReadLine();
 
-        if (input.ToLower() == "выход")
+        if (input.Equals("выход", StringComparison.CurrentCultureIgnoreCase))
         {
             playing = false;
             continue;
         }
-        try
+
+        Item itemToForge = player.Inventory.Find(item =>
+            item.Name.Equals(input, StringComparison.CurrentCultureIgnoreCase));
+
+        if (itemToForge != null)
         {
-            Item itemToForge = player.Inventory.Find(item => item.Name.ToLower() == input.ToLower());
+            // Предлагаем выбор стратегии улучшения
+            Console.WriteLine("Выберите тип улучшения: 1 - Стандартное, 2 - Мастерское");
+            string strategyChoice = Console.ReadLine();
+            /// вот тут надо добавить выбор стратегии
+            if (strategyChoice == "2")
+            {
+                blacksmith.SetForgingStrategy(new MasterForgingStrategy());
+                Console.WriteLine("Выбрано мастерское улучшение (высокий риск, высокая награда)");
+            }
+            else
+            {
+                blacksmith.SetForgingStrategy(new StandardForgingStrategy());
+                Console.WriteLine("Выбрано стандартное улучшение");
+            }
+
             blacksmith.Forge(itemToForge);
         }
-        catch(NullReferenceException)
+        else
         {
             Console.WriteLine("Предмет не найден в инвентаре.");
         }
     }
-
-    Console.WriteLine("Спасибо за игру!");
 }
