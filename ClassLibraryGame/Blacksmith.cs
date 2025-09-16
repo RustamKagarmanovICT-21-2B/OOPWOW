@@ -55,6 +55,7 @@ namespace ClassLibraryGame
             return number < 0 ? 0 : number;
         }
 
+
         public void SetForgingStrategy(IForgingStrategy strategy)
         {
             forgingStrategy = strategy;

@@ -10,7 +10,7 @@ namespace ClassLibraryGame
     {
         private readonly Random rnd = new Random();
 
-        public bool TryForge(Item item, int blacksmithSkill)
+        public bool TryForge(ItemBase item, int blacksmithSkill)
         {
             // Другая логика расчета для мастерского улучшения
             int baseChance = 70;
@@ -22,7 +22,7 @@ namespace ClassLibraryGame
 
             return rnd.Next(0, 100) < successChance;
         }
-        public string GetResultMessage(Item item, bool success)
+        public string GetResultMessage(ItemBase item, bool success)
         {
             return success ?
                 $"Успешно улучшено до качества {item.Quality}!" :

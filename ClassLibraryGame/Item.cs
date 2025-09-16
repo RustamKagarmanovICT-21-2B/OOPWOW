@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ClassLibraryGame
 {
@@ -13,6 +14,7 @@ namespace ClassLibraryGame
         public int ItemId { get; set; }
         public int Quality { get; set; }
         public string Description { get; set; }
+        public int Damage { get; set; }
 
         public Item(string name, int quality, int itemId, string description)
         {
@@ -51,6 +53,11 @@ namespace ClassLibraryGame
 
             Item other = (Item)obj;
             return this.ItemId == other.ItemId;
+        }
+        public void ApplyImprovement()
+        {
+            Quality++;
+            Damage += 2;
         }
 
         // Переопределение GetHashCode для генерации хэш кода, на основе id

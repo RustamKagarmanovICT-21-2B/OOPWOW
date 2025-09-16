@@ -1,134 +1,156 @@
 ﻿using ClassLibraryGame;
 
-
-bool isRunning = true;
-while (isRunning)
+class Program
 {
-    Console.WriteLine("Выберите действие:");
-    Console.WriteLine("1. Управление финансами кузнеца");
-    Console.WriteLine("2. Работа с методами класса Object");
-    Console.WriteLine("3. Взаимодействие между Кузнецом и Предметами");
-    Console.WriteLine("4. Выход");
-    Console.Write("Введите цифру выбранного действия: ");
+    private static EnhancedBlacksmith _blacksmith;
+    private static Inventory _inventory;
+    private static ResourceSystem _resources;
 
-    string choice = Console.ReadLine();
-    switch (choice)
+    static void Main(string[] args)
     {
-        case "1":
-            ManageBlacksmithFinances();
-            break;
-        case "2":
-            WorkWithObjectMethods();
-            break;
-        case "3":
-            InteractWithBlacksmithAndItems();
-            break;
-        case "4":
-            isRunning = false;
-            Console.WriteLine("Программа завершена.");
-            break;
-        default:
-            Console.WriteLine("Неверный выбор, попробуйте еще раз.");
-            break;
+        InitializeGame();
+
+        bool isRunning = true;
+        while (isRunning)
+        {
+            int choice = ConsoleHelper.ShowMenu("ГЛАВНОЕ МЕНЮ",
+                "Управление финансами",
+                "Работа с кузнецом",
+                "Просмотр инвентаря",
+                "Управление ресурсами",
+                "Выход");
+
+            switch (choice)
+            {
+                case 1: ManageFinances(); break;
+                case 2: WorkWithBlacksmith(); break;
+                case 3: _inventory.DisplayInventory(); break;
+                case 4: ManageResources(); break;
+                case 5: isRunning = false; break;
+            }
+        }
+
+        ConsoleHelper.WriteSuccess("Игра завершена. До свидания!");
     }
-    
-}
 
-static void ManageBlacksmithFinances()
-{
-    // Делегаты
-
-    // Создаем экземпляр класса Money с начальным балансом
-    Money blacksmithMoney = new Money(100);
-
-    // Добавляем деньги, используя делегат
-    blacksmithMoney.PerformMoneyOperation(Money.AddMoney, 50);
-
-    // Вычитаем деньги, используя делегат
-    blacksmithMoney.PerformMoneyOperation(Money.DelMoney, 30);
-
-    // Выводим текущий баланс
-    Console.WriteLine($"Текущий баланс: {blacksmithMoney.GetMoney()}");
-}
-
-
-static void WorkWithObjectMethods()
-{
-    
-    //Перегрузка методов класса Object
-
-    Blacksmith blacksmith = new Blacksmith ("John the Blacksmith", 21,3);
-    Blacksmith anotherBlacksmith = new Blacksmith("Steave the Blacksmith", 37, 5);
-
-
-
-    // Использование метода ToString()
-    Console.WriteLine(blacksmith.ToString());
-
-    // Использование метода Equals()
-    Console.WriteLine($"Is blacksmith equal to anotherBlacksmith? {blacksmith.Equals(anotherBlacksmith)}");
-
-    // Использование метода GetHashCode()
-    Console.WriteLine($"Hash code of blacksmith: {blacksmith.GetHashCode()}");
-
-}
-
-
-
-
-
-static void InteractWithBlacksmithAndItems()
-{
-    //*Использование классов Кузнец и Предмет (взаимодействие между ними)
-    // * Кузнец может с какой то вероятностью прокачать предмет
-    // * Вертоятность зависит от уровня скилла самого кузнеца и велечины прокачиваемого уровня
-    Player player = new Player("Герой");
-    Blacksmith blacksmith = new Blacksmith("Борис", 21, 4);
-
-    // Добавление предметов в инвентарь игрока
-    player.Inventory.Add(new Item("Меч", 5));
-    player.Inventory.Add(new Item("Щит", 3));
-
-    // Игровой цикл
-    bool playing = true;
-    while (playing)
+    static void InitializeGame()
     {
-        Console.WriteLine("Добро пожаловать в кузницу! Вы можете улучшить свое оружие здесь.");
-        player.ShowInventory();
-        Console.WriteLine("Введите название предмета для улучшения или 'выход' для выхода из игры:");
-        string input = Console.ReadLine();
+        MasterForgingStrategy forgingStrategy = new MasterForgingStrategy();
+        
+        // Инициализация игровых систем
+        _blacksmith = new EnhancedBlacksmith("Борис", 5, forgingStrategy);
+        _inventory = new Inventory(15);
+        _resources = new ResourceSystem();
 
-        if (input.Equals("выход", StringComparison.CurrentCultureIgnoreCase))
+        // Добавление стартовых предметов
+        _inventory.AddItem(new Weapon("Стальной меч", 10, 2));
+        _inventory.AddItem(new Armor("Кожаный доспех", 5, 1));
+        _inventory.AddItem(new Weapon("Деревянный щит", 3, 1));
+
+        ConsoleHelper.WriteHeader("ДОБРО ПОЖАЛОВАТЬ В КУЗНИЦУ");
+        Console.WriteLine("Вы - владелец кузницы, который принимает заказы на улучшение предметов.");
+        Console.WriteLine("Развивайте свои навыки, зарабатывайте ресурсы и улучшайте оборудование!");
+    }
+
+    static void ManageFinances()
+    {
+        Money money = new Money(150);
+
+        int choice = ConsoleHelper.ShowMenu("УПРАВЛЕНИЕ ФИНАНСАМИ",
+            "Показать баланс",
+            "Добавить деньги",
+            "Вычесть деньги",
+            "Назад");
+
+        switch (choice)
         {
-            playing = false;
-            continue;
+            case 1:
+                Console.WriteLine($"Текущий баланс: {money.GetMoney()} золотых");
+                break;
+            case 2:
+                Console.Write("Введите сумму для добавления: ");
+                if (int.TryParse(Console.ReadLine(), out int addAmount))
+                {
+                    money.PerformMoneyOperation(Money.AddMoney, addAmount);
+                    ConsoleHelper.WriteSuccess($"Добавлено {addAmount} золотых");
+                }
+                break;
+            case 3:
+                Console.Write("Введите сумму для вычитания: ");
+                if (int.TryParse(Console.ReadLine(), out int subtractAmount))
+                {
+                    money.PerformMoneyOperation(Money.DelMoney, subtractAmount);
+                    ConsoleHelper.WriteSuccess($"Вычтено {subtractAmount} золотых");
+                }
+                break;
         }
+    }
 
-        Item itemToForge = player.Inventory.Find(item =>
-            item.Name.Equals(input, StringComparison.CurrentCultureIgnoreCase));
+    static void WorkWithBlacksmith()
+    {
+        int choice = ConsoleHelper.ShowMenu("РАБОТА С КУЗНЕЦОМ",
+            "Информация о кузнеце",
+            "Улучшить предмет",
+            "Назад");
 
-        if (itemToForge != null)
+        switch (choice)
         {
-            // Предлагаем выбор стратегии улучшения
-            Console.WriteLine("Выберите тип улучшения: 1 - Стандартное, 2 - Мастерское");
-            string strategyChoice = Console.ReadLine();
-            /// вот тут надо добавить выбор стратегии
-            if (strategyChoice == "2")
-            {
-                blacksmith.SetForgingStrategy(new MasterForgingStrategy());
-                Console.WriteLine("Выбрано мастерское улучшение (высокий риск, высокая награда)");
-            }
-            else
-            {
-                blacksmith.SetForgingStrategy(new StandardForgingStrategy());
-                Console.WriteLine("Выбрано стандартное улучшение");
-            }
+            case 1:
+                Console.WriteLine(_blacksmith.ToString());
+                Console.WriteLine($"Уровень навыка: {_blacksmith.SkillLevel}");
+                Console.WriteLine($"Опыт: {_blacksmith.Experience}/{(int)(_blacksmith.SkillLevel * 20 * 0.8)}");
+                Console.WriteLine($"Выполнено улучшений: {_blacksmith.ForgesCompleted}");
+                break;
 
-            blacksmith.Forge(itemToForge);
+            case 2:
+                _inventory.DisplayInventory();
+                Console.Write("Введите название предмета для улучшения: ");
+                string itemName = Console.ReadLine();
+
+                ItemBase itemToForge = _inventory.FindItem(itemName);
+                if (itemToForge != null)
+                {
+                    // Проверка стоимости улучшения
+                    int cost = itemToForge.Quality * 15;
+                    if (_resources.HasEnoughResources("Золото", cost))
+                    {
+                        _resources.SpendResources("Золото", cost);
+                        ItemBase forgedItem = _blacksmith.Forge(itemToForge);
+
+                        if (forgedItem != itemToForge) // Если предмет был изменен
+                        {
+                            _inventory.RemoveItem(itemToForge);
+                            _inventory.AddItem(forgedItem);
+                        }
+                    }
+                    else
+                    {
+                        ConsoleHelper.WriteError($"Недостаточно золота! Требуется: {cost}");
+                    }
+                }
+                else
+                {
+                    ConsoleHelper.WriteError("Предмет не найден в инвентаре!");
+                }
+                break;
         }
-        else
+    }
+
+    static void ManageResources()
+    {
+        _resources.DisplayResources();
+
+        int choice = ConsoleHelper.ShowMenu("УПРАВЛЕНИЕ РЕСУРСАМИ",
+            "Добавить ресурсы",
+            "Назад");
+
+        if (choice == 1)
         {
-            Console.WriteLine("Предмет не найден в инвентаре.");
+            // Упрощенная система добавления ресурсов
+            _resources.AddResources("Золото", 50);
+            _resources.AddResources("Железо", 20);
+            ConsoleHelper.WriteSuccess("Ресурсы добавлены!");
+            _resources.DisplayResources();
         }
     }
 }

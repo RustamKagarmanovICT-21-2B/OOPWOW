@@ -10,20 +10,13 @@ namespace ClassLibraryGame
     {
         private readonly Random rnd = new Random();
 
-        public bool TryForge(Item item, int blacksmithSkill)
+        public bool TryForge(ItemBase item, int blacksmithSkill)
         {
-            int successRate = Math.Max(0, blacksmithSkill - item.Quality);
-            int success = rnd.Next(0, 100);
-            bool isSuccessful = success >= 50 - successRate * 5;
-
-            if (isSuccessful)
-            {
-                item.Quality++;
-            }
-
-            return isSuccessful;
+            int difficulty = item.Quality * 10;
+            int successChance = Math.Max(10, Math.Min(90, blacksmithSkill * 5 - difficulty));
+            return rnd.Next(100) < successChance;
         }
-        public string GetResultMessage(Item item, bool success)
+        public string GetResultMessage(ItemBase item, bool success)
         {
             return success ?
                 $"Успешно улучшено до качества {item.Quality}!" :

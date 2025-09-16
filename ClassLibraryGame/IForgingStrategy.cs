@@ -8,7 +8,7 @@ namespace ClassLibraryGame
 {
     public interface IForgingStrategy
     {
-        bool TryForge(Item item, int blacksmithSkill);
-        string GetResultMessage(Item item, bool success);
+        bool TryForge(ItemBase item, int blacksmithSkill);
+        string GetResultMessage(ItemBase item, bool success);
     }
 }
