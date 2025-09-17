@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj": {}
+    "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj": {
+    "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
+        "projectUniqueName": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
         "projectName": "ClassLibraryGame",
-        "projectPath": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
+        "projectPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
         "packagesPath": "C:\\Users\\kagar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\obj\\",
+        "outputPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj": {
+    "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
+        "projectUniqueName": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
         "projectName": "OOP",
-        "projectPath": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
+        "projectPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
         "packagesPath": "C:\\Users\\kagar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj": {
-                "projectPath": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj"
+              "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj": {
+                "projectPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj"
               }
             }
           }
@@ -118,6 +134,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
