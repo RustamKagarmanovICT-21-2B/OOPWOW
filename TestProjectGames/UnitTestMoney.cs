@@ -6,63 +6,70 @@ namespace ClassLibraryGame.Tests
     public class MoneyTests
     {
         [Fact]
-        public void AddMoney_ShouldIncreaseBalance()
+        public void Add_ShouldIncreaseBalance()
         {
             // Arrange
             Money money = new Money(100);
-            int moneyBag = 100;
-            int initialBalance = money.GetMoney();
 
             // Act
-            Money.AddMoney(ref moneyBag, 50);
+            money.Add(50);
 
             // Assert
-            Assert.Equal(initialBalance + 50, money.GetMoney());
+            Assert.Equal(150, money.GetBalance());
         }
 
         [Fact]
-        public void DelMoney_ShouldDecreaseBalance()
+        public void TrySubtract_WithSufficientFunds_ShouldDecreaseBalanceAndReturnTrue()
         {
             // Arrange
             Money money = new Money(100);
-            int moneyBag = 100;
-            int initialBalance = money.GetMoney();
 
             // Act
-            Money.DelMoney(ref moneyBag, 30);
+            bool result = money.TrySubtract(30);
 
             // Assert
-            Assert.Equal(initialBalance - 30, money.GetMoney());
+            Assert.True(result);
+            Assert.Equal(70, money.GetBalance());
         }
 
         [Fact]
-        public void DelMoney_ShouldNotGoBelowZero()
+        public void TrySubtract_WithInsufficientFunds_ShouldNotChangeBalanceAndReturnFalse()
         {
             // Arrange
-            int moneyBag = 30;
             Money money = new Money(30);
 
             // Act
-            Money.DelMoney(ref moneyBag, 50);
+            bool result = money.TrySubtract(50);
 
             // Assert
-            Assert.Equal(0, money.GetMoney());
+            Assert.False(result);
+            Assert.Equal(30, money.GetBalance());
         }
 
-        [Theory]
-        [InlineData(100, 25, 125)]
-        [InlineData(50, 10, 60)]
-        [InlineData(0, 100, 100)]
-        public void PerformMoneyOperation_ShouldWorkWithAdd(int initial, int addAmount, int expected)
+        [Fact]
+        public void PerformMoneyOperation_WithAddMoney_ShouldIncreaseBalance()
         {
             // Arrange
-            Money money = new Money(initial);
+            Money money = new Money(100);
 
             // Act
-            money.PerformMoneyOperation(Money.AddMoney, addAmount);
+            money.PerformMoneyOperation(Money.AddMoney, 50);
 
             // Assert
-            Assert.Equal(expected, money.GetMoney());
+            Assert.Equal(150, money.GetBalance());
+        }
+
+        [Fact]
+        public void PerformMoneyOperation_WithDelMoney_ShouldDecreaseBalance()
+        {
+            // Arrange
+            Money money = new Money(100);
+
+            // Act
+            money.PerformMoneyOperation(Money.DelMoney, 30);
+
+            // Assert
+            Assert.Equal(70, money.GetBalance());
         }
     }
 }

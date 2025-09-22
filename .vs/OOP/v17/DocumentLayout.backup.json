@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\testprojectgames\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|solutionrelative:testprojectgames\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\testprojectgames\\unittestmoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|solutionrelative:testprojectgames\\unittestmoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\testprojectgames\\testprojectgames.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|solutionrelative:testprojectgames\\testprojectgames.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\testprojectgames\\unittestweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|solutionrelative:testprojectgames\\unittestweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802563C5-7161-4F09-8112-C863464A7DE8}|OOP\\OOP.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{802563C5-7161-4F09-8112-C863464A7DE8}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\standardforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\standardforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\testprojectgames\\testprojectgames.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91AAA7D2-470E-422F-A138-ED9EEF20F5FE}|TestProjectGames\\TestProjectGames.csproj|solutionrelative:testprojectgames\\testprojectgames.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\masterforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\masterforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{802563C5-7161-4F09-8112-C863464A7DE8}|OOP\\OOP.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\oop\\oop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -39,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\classlibrarygame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\masterforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\masterforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\standardforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\standardforgingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\enhancedblacksmith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\blacksmith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\blacksmith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|solutionrelative:classlibrarygame\\itembase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28185439-A3DA-4648-98D7-D02953F99868}|ClassLibraryGame\\ClassLibraryGame.csproj|c:\\users\\kagar\\source\\repos\\oopwow\\classlibrarygame\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,19 +114,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestProjectGames",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
+              "DocumentIndex": 3,
+              "Title": "UnitTestWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\UnitTestWeapon.cs",
+              "RelativeDocumentMoniker": "TestProjectGames\\UnitTestWeapon.cs",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\UnitTestWeapon.cs",
+              "RelativeToolTip": "TestProjectGames\\UnitTestWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T07:33:53.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestProjectGames.csproj",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
               "RelativeDocumentMoniker": "TestProjectGames\\TestProjectGames.csproj",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
               "RelativeToolTip": "TestProjectGames\\TestProjectGames.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -131,32 +156,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "TestProjectGames",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
               "RelativeDocumentMoniker": "TestProjectGames\\TestProjectGames.csproj",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\TestProjectGames\\TestProjectGames.csproj",
               "RelativeToolTip": "TestProjectGames\\TestProjectGames.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T05:29:57.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T05:29:57.203Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TestProjectGames\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\UnitTest1.cs",
-              "RelativeToolTip": "TestProjectGames\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Title": "UnitTestMoney.cs",
+              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\UnitTestMoney.cs",
+              "RelativeDocumentMoniker": "TestProjectGames\\UnitTestMoney.cs",
+              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\TestProjectGames\\UnitTestMoney.cs",
+              "RelativeToolTip": "TestProjectGames\\UnitTestMoney.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T05:28:13.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EnhancedBlacksmith.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\EnhancedBlacksmith.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\EnhancedBlacksmith.cs",
@@ -164,12 +188,11 @@
               "RelativeToolTip": "ClassLibraryGame\\EnhancedBlacksmith.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:53:46.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:53:46.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Inventory.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Inventory.cs",
@@ -177,12 +200,11 @@
               "RelativeToolTip": "ClassLibraryGame\\Inventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:44:10.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:44:10.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ConsoleHelper.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ConsoleHelper.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\ConsoleHelper.cs",
@@ -190,12 +212,11 @@
               "RelativeToolTip": "ClassLibraryGame\\ConsoleHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:42:28.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:42:28.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ResourceSystem.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ResourceSystem.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\ResourceSystem.cs",
@@ -203,25 +224,24 @@
               "RelativeToolTip": "ClassLibraryGame\\ResourceSystem.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:41:26.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:41:26.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "ItemBase.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ItemBase.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\ItemBase.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ItemBase.cs",
               "RelativeToolTip": "ClassLibraryGame\\ItemBase.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T07:30:41.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IItem.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\IItem.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\IItem.cs",
@@ -229,12 +249,11 @@
               "RelativeToolTip": "ClassLibraryGame\\IItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:29:11.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:29:11.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Armor.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Armor.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Armor.cs",
@@ -242,38 +261,37 @@
               "RelativeToolTip": "ClassLibraryGame\\Armor.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T07:26:29.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T07:26:29.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Weapon.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Weapon.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Weapon.cs",
               "RelativeToolTip": "ClassLibraryGame\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T07:21:17.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "StandardForgingStrategy.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\StandardForgingStrategy.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\StandardForgingStrategy.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\StandardForgingStrategy.cs",
               "RelativeToolTip": "ClassLibraryGame\\StandardForgingStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T06:45:24.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IForgingStrategy.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\IForgingStrategy.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\IForgingStrategy.cs",
@@ -281,30 +299,28 @@
               "RelativeToolTip": "ClassLibraryGame\\IForgingStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T06:44:45.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T06:44:45.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "OOP",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
               "RelativeDocumentMoniker": "OOP\\OOP.csproj",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
               "RelativeToolTip": "OOP\\OOP.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-08T06:26:59.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T06:26:59.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "MasterForgingStrategy.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\MasterForgingStrategy.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\MasterForgingStrategy.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\MasterForgingStrategy.cs",
               "RelativeToolTip": "ClassLibraryGame\\MasterForgingStrategy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T18:10:24.985Z",
               "EditorCaption": ""
@@ -317,14 +333,14 @@
               "RelativeDocumentMoniker": "ClassLibraryGame\\Money.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Money.cs",
               "RelativeToolTip": "ClassLibraryGame\\Money.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T18:07:48.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Player.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Player.cs",
@@ -332,12 +348,11 @@
               "RelativeToolTip": "ClassLibraryGame\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:07:48.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Item.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Item.cs",
@@ -350,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Blacksmith.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Blacksmith.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Blacksmith.cs",
@@ -358,12 +373,11 @@
               "RelativeToolTip": "ClassLibraryGame\\Blacksmith.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:07:48.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Mage.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Mage.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Mage.cs",
@@ -371,12 +385,11 @@
               "RelativeToolTip": "ClassLibraryGame\\Mage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:07:48.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "NonPlayerCharacter.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\NonPlayerCharacter.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\NonPlayerCharacter.cs",
@@ -384,12 +397,11 @@
               "RelativeToolTip": "ClassLibraryGame\\NonPlayerCharacter.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwCQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:07:48.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\Character.cs",
               "RelativeDocumentMoniker": "ClassLibraryGame\\Character.cs",
@@ -397,51 +409,44 @@
               "RelativeToolTip": "ClassLibraryGame\\Character.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAcwE4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:07:48.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ClassLibraryGame.csproj",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
               "RelativeDocumentMoniker": "ClassLibraryGame\\ClassLibraryGame.csproj",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\ClassLibraryGame\\ClassLibraryGame.csproj",
               "RelativeToolTip": "ClassLibraryGame\\ClassLibraryGame.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T18:07:48.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T18:07:48.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OOP.csproj",
+              "DocumentMoniker": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
+              "RelativeDocumentMoniker": "OOP\\OOP.csproj",
+              "ToolTip": "C:\\Users\\kagar\\Source\\Repos\\OOPWOW\\OOP\\OOP.csproj",
+              "RelativeToolTip": "OOP\\OOP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T18:07:48.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "OOP.csproj",
-              "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
-              "RelativeDocumentMoniker": "OOP\\OOP.csproj",
-              "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\OOP.csproj",
-              "RelativeToolTip": "OOP\\OOP.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-02T18:07:48.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\Program.cs",
               "RelativeDocumentMoniker": "OOP\\Program.cs",
               "ToolTip": "C:\\Users\\kagar\\source\\repos\\OOPWOW\\OOP\\Program.cs",
               "RelativeToolTip": "OOP\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAD4v3UAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T18:07:48.088Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

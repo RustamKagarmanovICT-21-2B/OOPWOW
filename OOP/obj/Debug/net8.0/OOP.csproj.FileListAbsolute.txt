@@ -36,3 +36,4 @@ C:\Users\kagar\Source\Repos\OOPWOW\OOP\obj\Debug\net8.0\refint\OOP.dll
 C:\Users\kagar\Source\Repos\OOPWOW\OOP\obj\Debug\net8.0\OOP.pdb
 C:\Users\kagar\Source\Repos\OOPWOW\OOP\obj\Debug\net8.0\OOP.genruntimeconfig.cache
 C:\Users\kagar\Source\Repos\OOPWOW\OOP\obj\Debug\net8.0\ref\OOP.dll
+C:\Users\kagar\Source\Repos\OOPWOW\OOP\bin\Debug\net8.0\.msCoverageSourceRootsMapping_OOP

@@ -6,54 +6,51 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryGame
 {
-    
-    
     public class Money
     {
-        // Определяем делегат для операций с деньгами
-        public delegate void MoneyOperation(ref int currentMoney, int amount);
-        
-        public event MoneyOperation? Notify;
-        // Поле для хранения текущего баланса денег
-        private int CurrentMoney;
+        private int _balance;
 
-        // Метод для добавления денег
-        public static void AddMoney(ref int currentMoney, int amount)
-        {
-            currentMoney += amount;
-            //Console.WriteLine($"Добавлено {amount} монет. Текущий баланс: {currentMoney}");
-            //Notify?.Invoke($"На счет поступило: {amount}");   // 2.Вызов события 
-        }
-
-        // Метод для вычитания денег
-        public static void DelMoney(ref int currentMoney, int amount)
-        {
-            if (amount > currentMoney)
-            {
-                Console.WriteLine("Недостаточно средств для совершения операции.");
-            }
-            else
-            {
-                currentMoney -= amount;
-                Console.WriteLine($"Вычтено {amount} монет. Текущий баланс: {currentMoney}");
-            }
-        }
-        public int GetMoney()
-        {
-            return CurrentMoney;
-        }
-        
-
-        // Конструктор Money
         public Money(int startingBalance)
         {
-            CurrentMoney = startingBalance;
+            _balance = startingBalance;
         }
 
-        // Метод для выполнения операции с деньгами
-        public void PerformMoneyOperation(MoneyOperation operation, int amount)
+        public void Add(int amount)
         {
-            operation(ref CurrentMoney, amount);
+            _balance += amount;
+        }
+
+        public bool TrySubtract(int amount)
+        {
+            if (amount > _balance)
+            {
+                Console.WriteLine("Недостаточно средств для совершения операции.");
+                return false;
+            }
+
+            _balance -= amount;
+            return true;
+        }
+
+        public int GetBalance()
+        {
+            return _balance;
+        }
+
+        // Для обратной совместимости с делегатами
+        public static void AddMoney(Money money, int amount)
+        {
+            money.Add(amount);
+        }
+
+        public static void DelMoney(Money money, int amount)
+        {
+            money.TrySubtract(amount);
+        }
+
+        public void PerformMoneyOperation(Action<Money, int> operation, int amount)
+        {
+            operation(this, amount);
         }
     }
 }

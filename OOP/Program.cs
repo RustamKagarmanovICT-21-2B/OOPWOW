@@ -65,7 +65,7 @@ class Program
         switch (choice)
         {
             case 1:
-                Console.WriteLine($"Текущий баланс: {money.GetMoney()} золотых");
+                Console.WriteLine($"Текущий баланс: {money.GetBalance()} золотых");
                 break;
             case 2:
                 Console.Write("Введите сумму для добавления: ");
